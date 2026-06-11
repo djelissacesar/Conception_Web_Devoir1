@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="signup-page">
+        <section class="form-panel" aria-label="Signup form">
+            <div class="form-content">
+                <h1>Ready to start your<br>success story?</h1>
+                <p class="intro">Signup to our website and start leafing<br>through your favorite literature today!</p>
+
+                <form>
+                    <label class="field">
+                        <span>Full name</span>
+                        <input type="text" value="Jane Doe">
+                    </label><br> <br>
+                    <label class="field">
+                        <span>Email</span>
+                        <input type="email" value="janedoe@mail.com">
+                    </label><br><br>
+
+                    <label class="field active">
+                        <span>Area of interest</span>
+                        <input type="text" autofocus>
+                    </label>
+
+                    <label class="select-field">
+                        <span class="visually-hidden">Select an option</span>
+                        <select>
+                            <option value="">Select an option</option>
+                            <option>Literature</option>
+                            <option>Science</option>
+                            <option>Biologie</option>
+                        </select>
+                    </label>
+
+                    <label class="terms">
+                        <input type="checkbox">
+                        <span>I agree to the <a href="#">Terms &amp; Conditions</a></span>
+                    </label>
+
+                    <button type="submit">Sign up</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="image-panel" aria-label="Reader illustration">
+            <img src="image/fille_avec_chat.jpeg" alt="Image">
+        </section>
+    </main>
+</body>
+</html>
